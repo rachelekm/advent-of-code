@@ -34,4 +34,4 @@ if __name__ == "__main__":
                 course_part_2['aim'] += cleanLine(x)
             if 'up' in x:
                 course_part_2['aim'] -= cleanLine(x)
-        print('part 1: {}'.format(course_part_2['horizontal']*course_part_2['depth']))
+        print('part 2: {}'.format(course_part_2['horizontal']*course_part_2['depth']))
